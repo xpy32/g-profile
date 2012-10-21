@@ -1,0 +1,20 @@
+<script language="javascript" type="text/javascript">
+	$(document).ready(function(){
+		$("header").load('header.html');
+		$("footer").load('footer.html');
+	});
+	//if($("#gy-page-indicator").val() == 'home'){
+		//$("#gy-home-link").addClass('active');
+	//}
+	var indicator = $("#gy-page-indicator").val();
+	switch (indicator){
+		case 'home':
+		$("#gy-home-link").addClass('active');
+		break;
+	}
+</script>
+<div class="container">
+	<p class="pull-right"><small>2012 Guang Yang</small></p>
+	<p>Tell me what do you think about this page?</p>
+	<a href="#">Back to top</a>
+</div>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online profile - Guang Yang</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+		<link href="css/gy.css" rel="stylesheet">
+		<style type="text/css">
+		</style>
+	</head>
+	<body class="">
+		<header>
+			<div class="container">
+				<div class="navbar">
+					<div class="navbar-inner">
+						<div class="container">
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+							<span class="brand" href="#">GY Profile</span>
+							<div class="nav-collapse">
+								<ul class="nav">
+									<li id="gy-home-link"><a href="index.html">Home</a></li>
+									<li id="gy-portfolio-link"><a href="portfolio.html">Portfolio</a></li>
+									<!--
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Action</a></li>
+											<li><a href="#">Another action</a></li>
+											<li><a href="#">Something else here</a></li>
+											<li class="divider"></li>
+											<li class="nav-header">Nav header</li>
+											<li><a href="#">Separated link</a></li>
+											<li><a href="#">One more separated link</a></li>
+										</ul>
+									</li>
+									-->
+								</ul>
+								<!-- Search bar
+								<form class="navbar-search pull-left" action="">
+									<input type="text" class="search-query span2" placeholder="Search">
+								</form>
+								<ul class="nav pull-right">
+									<li><a href="#">Link</a></li>
+									<li class="divider-vertical"></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+											<ul class="dropdown-menu">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+											</ul>
+									</li>
+								</ul>-->
+								<ul class="nav pull-right">
+									<li><a>Version 1.0</a></li>
+								</ul>
+							</div><!-- /.nav-collapse -->
+						</div>
+					</div><!-- /navbar-inner -->		
+				</div>
+			</div>
+		</header>
+		<input type="hidden" id="gy-page-indicator" value="home" />
+		<div class="container">
+			<!-- <div class="page-header">
+				<h1>Home Page <small></small></h1>
+			</div> -->
+			<div class="row-fluid">
+				<!-- <div class="span2">
+					<ul class="nav well nav-list">
+						<li><a href="">item 1</a></li>
+						<li><a href="">item 2</a></li>
+						<li><a href="">item 3</a></li>
+					</ul>
+				</div> -->
+				<div class="span12">
+					<div class="hero-unit">
+						<div class="row-fluid">
+							<div class="span9">
+								<h2>Guang Yang</h2>
+								<small class="text-info">IT Manager, Spartan Press Music Publishers Ltd</small>
+								<p>
+									Web development and IT support experience. MSc IT degree holder with a wide range of IT skills. A positive person with the ability to communicate with others effectively and a person who always has a great desire for success. 
+								</p>
+								<!--<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p><i class="icon-home"></i>-->
+								<br/>
+								<a href="#myCvModal" role="button" data-toggle="modal" class="btn btn-large btn-primary">View full CV</a>
+								<a href="portfolio.html" class="btn btn-large">Go to portfolio</a>
+							</div>
+							<div class="span3">
+								<img src="img/me.jpg" class="img-polaroid" alt="Me..." />
+							</div>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span4">
+							<h4>Key skills</h4>
+							<table class="table table-hover">
+								<tr>
+									<td>
+										<ul>
+											<li><strong class="text-info">PHP</strong>, HTML, CSS, JavaScript, AJAX and jQuery</li>
+											<li>Databases (<strong class="text-info">MySQL</strong> and Access)</li>
+											<li><strong class="text-info">IT support</strong> and Linux</li>
+											<li>Troubleshooting computer problems</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+							
+						</div>
+						<div class="span4">
+							<h4>Working experience</h4>
+							<table class="table table-hover">
+								<tr>
+									<td>IT Manager, Spartan Press Music Publishers Ltd, Laggan, UK</td>
+								</tr>
+								<tr>
+									<td>
+										<ul>
+											<li>Launched 6 websites and many apps</li>
+											<li>Provided IT support</li>
+											<li>Liaising with the clients</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="span4">
+							<h4>Education</h4>
+							<table class="table table-hover">
+								<tr>
+									<td class="text-warning"><strong>MSc Information Technology</strong>, University of St Andrews, UK</td>
+								</tr>
+								<tr>
+									<td>BA English, Tianjin University of Commerce, China</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="pull-right"><small>2012 Guang Yang</small></p>
+				<p><strong><i class="icon-envelope"></i> iamyihe@gmail.com <i class="icon-user"></i> +44 7889070847</strong></p>
+				<a href="#">Back to top</a>
+			</div>
+		</footer>
+		<!-- My CV modal -->
+		<div class="modal hide fade" id="myCvModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">¡Á</button>
+				<h3 id="myCvLabel" class="">CV - Guang Yang</h3>
+			</div>
+			<div class="modal-body">
+				<p><strong><i class="icon-envelope"></i> iamyihe@gmail.com <i class="icon-user"></i> +44 7889070847</strong> <i class="icon-file"></i> Driving Licence & Car Owner
+				<p><i class="icon-home"></i> Butlers flat, Strathmashie, Newtonmore PH20 1BU, Scotland, UK</p>
+				<table class="table table-hover">
+					<tr>
+						<td>
+							<h4>Education</h4>
+							<ul>
+								<li>
+									<p>09/2009 - 11/2010, University of St Andrews, <strong class="text-warning">MSc IT</strong></p>
+									<p><small>Web Technologies, Database, IT Software Engineering Principles, Information Security, IT Fundamental, IT Project Planning</small></p>
+								</li>
+								<li>
+									<p>09/2005 - 06/2009, Tianjin University of Commerce, China, <strong class="text-warning">BA English</strong></p>
+									<p><small>Linguistics & Literature, Translation, Culture, International Trade</small></p>
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Working experience</h4>
+							<ul>
+								<li>
+									<p>07/2011 - present, <strong class="text-info">IT Manager</strong>, Spartan Press Music Publishers Ltd, UK</p>
+									<p>
+										<small>
+											- Successfully launched 6 websites and developed many PHP based web applications <br/>
+											- Provided 1st and 2nd line IT support for internal and external customers <br/>
+											- Responsible for general enquiries and liaising with the clients <br/>
+										</small>
+									</p>
+								</li>
+								<li>
+									<p>04/2009-06/2009, Webmaster & Consultant Intern, Tianjin Wanji Overseas Education Consultancy, China</p>
+									<p>
+										<small>
+											- Assisted in development of a new website  <br/>
+											- Responsible for general enquiries <br/>
+										</small>
+									</p>
+								</li>
+								<li>
+									<p>09/2006-07/2007, Part-time webmaster, School of Foreign Language, Tianjin University of Commerce, China</p>
+									<p>
+										<small>
+											- Developed a CMS as new website solution for School <br/>
+											- Responsible for maintaining and updating the contents of the website <br/>
+										</small>
+									</p>
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Positions of responsibility</h4>
+							<ul>
+								<li>
+									<p>12/2009-03/2010, Tech-team director, BUILD (Business-Unifying Incubator & Leadership Development) Project</p>
+									<p>
+										<small>
+											- A project mainly run by students from MIT and University of Cambridge <br/>
+											- Helped in writing specifications and requirements document <br/>
+											- Gained experience of work within a diverse team <br/>
+										</small>
+									</p>
+								</li>
+								<li>
+									<p>07/2007-07/2008, Vice-President, Tianjin University of Commerce Student Union</p>
+									<p>
+										<small>
+											- Managed 300 Student Union members  <br/>
+											- Created a new method of recruitment, improved the process of recruitment <br/>
+											- Optimized the use of information and computer technology in daily work more than ever before <br/>
+											- Established the first IT support team of Union <br/>
+										</small>
+									</p>
+								</li>
+								<li>
+									<p>09/2006-07/2007, Part-time webmaster, School of Foreign Language, Tianjin University of Commerce, China</p>
+									<p>
+										<small>
+											- Took charge of 6 Student Union departments and managed 60 Student Union members <br/>
+											- Became the first second year student who was elected to be president and the first person who served as president for two years <br/>
+										</small>
+									</p>
+								</li>
+								<li>
+									<p>09/2007-11/2007, Director, The 6th Foreign Languages Festival, Tianjin University of Commerce</p>
+									<p>
+										<small>
+											- Improved this festival to an event containing a series of activities  <br/>
+											- Responsible for the opening and closing ceremony shows at a ten thousand people venue <br/>
+										</small>
+									</p>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/gy.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript">
+			/*$(document).ready(function(){
+				$("#load").click(function(){
+					$(".button").button('loading');
+				});
+			});*/
+			$(document).ready(function(){
+				//$("header").load('header.html');
+				//$("footer").load('footer.html');
+			});
+			/*
+			$(document).ready(function(){
+			  $.ajax({url:"header.html",success:function(result){
+				$("div").html(result);
+			  }});
+			});
+			*/
+			changeCurrentPageLinkStyle();
+		</script>
+	</body>
+</html>
